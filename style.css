@@ -27,13 +27,15 @@ header {
 h4 {
   font-size: 1.4rem;
   color: var(--primary-color);
-  margin-bottom: 11.6rem;
+  margin-bottom: 1.6rem;
 }
 
 h1 {
   font-size: 3.4rem;
   color: var(--headline);
   line-height: 130%;
+
+  margin-bottom: 2.4rem;
 }
 
 p {
@@ -41,8 +43,7 @@ p {
   line-height: 150%;
   font-weight: 400;
   color: var (--paragraph);
-  margin-bottom: 3.4rem;
-  /* border: 1px solid red; */
+  margin-bottom: 3.2rem;
 }
 
 button {
@@ -57,16 +58,21 @@ button {
 
   color: white;
   font-size: 1.4rem;
+  font-weight: 700;
   text-transform: uppercase;
 
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.6rem;
   margin-right: auto;
   margin-left: auto;
-  /* display: block; */
+  margin-bottom: 6rem;
 }
 
-img {
+.stats {
+  width: 32.7rem;
+  height: 47rem;
 
+  margin-inline: auto;
 }
